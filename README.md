@@ -4,6 +4,8 @@ A starter repository showing how to build a blog with the [Eleventy](https://git
 
 [![Build Status](https://travis-ci.org/11ty/eleventy-base-blog.svg?branch=master)](https://travis-ci.org/11ty/eleventy-base-blog)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b8de2970-beba-4552-9da5-da896bcf32fa/deploy-status)](https://app.netlify.com/sites/vibrant-kare-b5e191/deploys)
+
 ## Demos
 
 * [Netlify](https://eleventy-base-blog.netlify.com/)
