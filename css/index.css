@@ -5,8 +5,9 @@
   --gray: #C0C0C0;
   --darkgray: #333;
   --navy: #17050F;
-  --blue: #082840;
+  --blue: #007bff;
   --white: #fff;
+  --background: #f2f7fc;
 }
 * {
   box-sizing: border-box;
@@ -19,17 +20,24 @@ body {
   color: var(--darkgray);
   background-color: var(--white);
 }
+
+h1, h2 {
+  color: var(--blue);
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
 p:last-child {
   margin-bottom: 0;
 }
-p,
-.tmpl-post li,
-img {
+
+.tmpl-post li, img {
   max-width: 37.5em; /* 600px /16 */
 }
-p,
-.tmpl-post li {
-  line-height: 1.45;
+p, .tmpl-post li {
+  line-height: 1.65;
 }
 a[href] {
   color: var(--blue);
@@ -213,6 +221,7 @@ a[href].tag:visited {
   text-decoration: none;
   font-style: normal;
   margin-left: .1em;
+  font-size: 1rem;
 }
 a[href].direct-link,
 a[href].direct-link:visited {
