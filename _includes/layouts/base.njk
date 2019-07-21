@@ -14,7 +14,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
 
-          <a class="navbar-brand" href="#"><img src="/img/spiked-logo.svg"></a>
+          <a class="navbar-brand" href="/"><img src="/img/spiked-logo.svg"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -31,16 +31,12 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="col-10 offset-1 pt-5">
-        <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-          {{ content | safe }}
-        </main>
-      </div>
-    </div>
 
-    <footer>
-      
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+      {{ content | safe }}
+    </main>
+
+    <footer class="background-light-blue">
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

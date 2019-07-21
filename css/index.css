@@ -8,6 +8,9 @@
   --blue: #007bff;
   --white: #fff;
   --background: #f2f7fc;
+  --lightblue: #f2f7fc;
+  --black: #404244;
+  --darkblack: #131313;
 }
 * {
   box-sizing: border-box;
@@ -39,15 +42,7 @@ p:last-child {
 p, .tmpl-post li {
   line-height: 1.65;
 }
-a[href] {
-  color: var(--blue);
-}
-a[href]:visited {
-  color: var(--navy);
-}
-main {
-  padding: 1rem;
-}
+
 main :first-child {
   margin-top: 0;
 }
@@ -91,6 +86,55 @@ pre {
   margin: .5em 0;
   background-color: #f6f6f6;
 }
+
+.bold {
+  font-weight: 700;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.white {
+  color: var(--white);
+}
+
+.background-blue {
+  background: var(--blue)
+}
+
+.background-light-blue {
+  background: var(--background)
+}
+
+a.link-blue {
+  color: var(--blue);
+  text-decoration: none;
+}
+a.link-blue:hover, a.link-blue:active, a.link-blue:focus, a.link-blue:focus-within, a.link-blue:active:focus {
+  color: var(--blue);
+}
+
+a.link-white {
+  color: var(--white);
+  text-decoration: none;
+}
+a.link-white:hover, a.link-white:active, a.link-white:focus, a.link-white:focus-within, a.link-white:active:focus {
+  color: var(--white);
+}
+
+a.link-dashed {
+  border-bottom: 1px dashed;
+}
+
+a.link-black {
+  color: var(--black);
+  text-decoration: none;
+}
+a.link-black:hover, a.link-black:active, a.link-black:focus, a.link-black:focus-within, a.link-black:active:focus {
+  color: var(--darkblack);
+}
+
 .highlight-line {
   display: block;
   padding: 0.125em 1em;
