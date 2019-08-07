@@ -9,8 +9,10 @@ navtitle: Home
 	<div class="container">
 		<div class="col-10 offset-1 pt-5">
 			<h1 class="white">Welcome to our blog</h1>
-			{% set postslist = collections.posts | head(-3) %}
-			{% include "postslist.njk" %}
+			<div class="mt-3">
+				{% set postslist = collections.posts | head(-3) %}
+				{% include "postslist.njk" %}
+			</div>
 
 			<p>More posts can be found in <a class="link-white" href="{{ '/posts/' | url }}">here</a></p>
 		</div>
