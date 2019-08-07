@@ -5,16 +5,16 @@ tags:
 navtitle: Home
 ---
 
-<div class="background-blue pb-5">
+<div class=" pb-5">
 	<div class="container">
 		<div class="col-10 offset-1 pt-5">
-			<h1 class="white">Welcome to our blog</h1>
+			<h1 style="font-size: 2rem;" class="">Opinions and rambling in a changing world of DevOps</h1>
 			<div class="mt-3">
-				{% set postslist = collections.posts | head(-3) %}
+				{# {% set postslist = collections.posts | head(-3) %} #}
+				{% set postslist = collections.posts %}
 				{% include "postslist.njk" %}
 			</div>
-
-			<p>More posts can be found in <a class="link-white" href="{{ '/posts/' | url }}">here</a></p>
+			{# <p>More posts can be found in <a class="link-white" href="{{ '/posts/' | url }}">here</a></p> #}
 		</div>
 	</div>
 </div>
