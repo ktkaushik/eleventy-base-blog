@@ -1,16 +1,16 @@
 {
-  "title": "Spiked blog",
-  "url": "https://blog.spiked.sh",
+  "title": "Spike blog",
+  "url": "https://blog.spike.sh",
   "description": "We write about our company, latest updates and features",
   "feed": {
-    "subtitle": "Spiked's blog.",
+    "subtitle": "Spike's blog.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "url": "https://myurl.com/feed/feed.xml",
-    "id": "https://myurl.com/"
+    "url": "https://blog.spike.sh/feed/feed.xml",
+    "id": "https://blog.spike.sh/"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com"
+    "name": "Kaushik Thirthappa",
+    "email": "kaushik@spike.sh"
   }
 }
